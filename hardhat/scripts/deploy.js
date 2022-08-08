@@ -9,7 +9,7 @@ async function main(){
   await deployedWhitelistContract.deployed();
 
   //To print the contract address
-  console.log(`Whitelist contract Address: ${deployedWhitelistContract}`);
+  console.log(`Whitelist contract Address: ${deployedWhitelistContract.address}`);
 }
 
 // To call the main function and see if there is any error
